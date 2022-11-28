@@ -1,2 +1,2 @@
 # CPP-Basics
-Well my journey of learning C++ from basics .
+My journey of learning C++ from basic to advanced level concepts.
