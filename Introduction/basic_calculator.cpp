@@ -1,3 +1,6 @@
+/*Purpose: Basic Calculator
+Concept Learned: To show integer arithmetic expressions */
+
 #include <iostream>
 using namespace std;
 int main() {
