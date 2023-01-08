@@ -12,14 +12,16 @@ Output Format
 Print the total number of ways.*/
 
 #include <bits/stdc++.h>
-#include <iostream>
-#include <cmath>
 using namespace std;
-
+int FindPower(int base, int power) {
+   if (power == 0)
+   return 1;
+   else
+   return (base * FindPower(base, power-1));
+}
 int main() {
-    int x,n;
-    cin>>x>>n;
-  cout << pow(x, n);
-
-  return 0;
+   int base, power;
+   cin>>base>>power;
+   cout<<FindPower(base, power);
+   return 0;
 }
