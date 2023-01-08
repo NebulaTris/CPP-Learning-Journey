@@ -15,7 +15,7 @@ Output Format
 using namespace std;  
 int main()  
 {  
-    int n,sum=0,m;    
+    long long int n,sum=0,m;    
     cin>>n;    
     while(n>0)    
     {    
@@ -23,7 +23,7 @@ int main()
         sum=sum+m;    
         n=n/10;    
     }
-    int r,s1=0,temp;    
+    long long int r,s1=0,temp;    
     temp=sum;    
     while(sum>0)    
     {    
@@ -37,4 +37,4 @@ int main()
     else    
     cout<<"No";   
     return 0;  
-}
+} 
